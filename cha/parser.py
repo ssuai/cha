@@ -10,7 +10,7 @@ Created on Mon Oct 29 14:59:04 2018
 import os
 from subprocess import getstatusoutput
 import re
-from log import Log
+from .log import Log
 
 from lexical_diversity import lex_div as ld
 
